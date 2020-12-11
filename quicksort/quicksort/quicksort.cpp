@@ -1,4 +1,4 @@
-#include <vector>
+﻿#include <vector>
 #include <array>
 #include <iostream>
 using namespace std;
@@ -32,6 +32,6 @@ void quickSort2(vector<int>& array, int left, int right)
 }
 
 vector<int> quickSort(vector<int> array) {
-    quickSort2(array, 0, array.size()-1);
+    quickSort2(array, 0, array.size() - 1);
     return array;
 }
